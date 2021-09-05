@@ -1,41 +1,111 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 0;
+
 }
 
-#navbar{
+
+
+body {
+    -ms-overflow-style: none;
+    /* for Internet Explorer, Edge */
+    scrollbar-width: none;
+    /* for Firefox */
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    /* for Chrome, Safari, and Opera */
+}
+
+
+#navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
-    text-align: center;
-
 
     top: 0;
     right: 0;
     width: 100vw;
     border: 3px solid #73AD21;
+    background-color: black;
+    color: purple;
+
+    z-index: 2;
+
 }
 
-li{
+#welcome-section {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#welcome-section-titel {
+
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: relative;
+   width: ;
+   height: ;
+
+   background-color: black;
+  }
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+li {
     list-style: none;
     margin: 0.5rem;
 }
 
-a{
+a {
     text-decoration: none;
-    
+
     /* margin: 1rem; */
 }
 
-section{
+h2 {
+    top: ;
+}
+
+section {
     height: 100vh;
+    width: 100vw;
     background-color: aqua;
     margin: 1rem 0rem 1rem 0rem;
     padding: 1rem;
 }
 
-@media screen and () {
-    
-}
+@media screen and () {}
