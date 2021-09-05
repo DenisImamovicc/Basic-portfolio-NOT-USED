@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    text-align: center;
+
+
+    top: 0;
+    right: 0;
+    width: 100vw;
+    border: 3px solid #73AD21;
+}
+
+li{
+    list-style: none;
+    margin: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    
+    /* margin: 1rem; */
+}
+
+section{
+    height: 100vh;
+    background-color: aqua;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
+}
+
+@media screen and () {
+    
+}
