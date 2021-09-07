@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0 0 0 0;
-    
+
 }
 
 
@@ -13,6 +13,7 @@ body {
     scrollbar-width: none;
     /* for Firefox */
     overflow-y: scroll;
+    background: violet;
 }
 
 body::-webkit-scrollbar {
@@ -27,16 +28,16 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
-    
+
     top: 0;
     right: 0;
     width: 100vw;
     border: 3px solid #73AD21;
     background-color: black;
     color: purple;
-    
+
     z-index: 2;
-    
+
 }
 
 section {
@@ -47,6 +48,10 @@ section {
     padding: 1rem;
 }
 
+section:last-of-type {
+    margin: 1rem 0rem 0rem 0rem;
+}
+
 #welcome-section {
     display: flex;
     text-align: center;
@@ -54,17 +59,18 @@ section {
     justify-content: center;
     min-width: 100%;
     min-height: 100%;
-    
+
     background-image: url(images/welcome-section-background.png);
     background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; 
+    background-position: center;
+    /* Center the image */
+    background-size: cover;
     background-color: black;
     box-shadow: 15px 20px 30px 25px gray inset;
-    
+
 }
 
-#hero-text{
+#hero-text {
     color: wheat;
     display: flex;
     flex-direction: column;
@@ -72,8 +78,9 @@ section {
 
     /* background-image: url(images/welcome-section-background.png); */
     background-repeat: no-repeat;
-    background-position: center; /* Center the image */
-    background-size: cover; 
+    background-position: center;
+    /* Center the image */
+    background-size: cover;
     background-color: transparent;
     box-shadow: 5px 10px 20px 10px black;
     height: 80vh;
@@ -81,33 +88,36 @@ section {
 }
 
 
-#projects-section{
+#projects-section {
     background-color: rgb(173, 24, 173);
     height: auto;
 }
 
-#projects-section-titel{
+#projects-section-titel {
     text-align: center;
     color: wheat;
     margin-bottom: 1rem;
 }
 
-.project-titel{
+.project-titel {
     margin: 1rem;
     font-size: 1.5rem;
     font-weight: lighter;
 }
-.project-tile{
+
+.project-tile {
     min-height: auto;
     display: flex;
     flex-direction: column;
     text-align: center;
     /* background-image: url(images/Projekt\ 1.png); */
-    background-color: rgb(165, 155, 155);
+    background-color: rgb(68, 2, 97);
+    color: wheat;
     background-position: center;
-    background-size: cover; 
+    background-size: cover;
     margin-bottom: 1rem;
     padding: 0.4em;
+    border-radius: ;
 
 
 }
@@ -116,39 +126,39 @@ section {
 
 } */
 
-.project-img{
+.project-img {
     height: auto;
     width: 100%;
 }
 
-.project-tools-list{
+.project-tools-list {
     display: flex;
     background-color: inherit;
 }
 
-.project-buttons{
-
+.project-buttons {
     margin: 0rem;
     margin-bottom: 1rem;
-    background-color: white;
-    color: black;
+    background-color: inherit;
+    color: wheat;
     border: 1px solid black;
     border-radius: 1rem;
 }
 
-.project-buttons:last-of-type{
-    margin-bottom: 0rem;
+.project-buttons:last-of-type {
+    margin-bottom: 0.5rem;
 }
 
-.project-buttons:hover{
+.project-buttons:hover {
     background-color: lightblue;
 }
 
-.button-link{
+.button-link {
     padding: 1rem;
+    color: wheat;
 }
 
-.project-p{
+.project-p {
     margin: 1rem;
     text-align: start;
 }
@@ -159,13 +169,13 @@ li {
 
 }
 
-.tool{
+.tool {
     border: 1px solid black;
     padding: 0.5rem;
     border-radius: 1rem;
 }
 
-.tool:hover{
+.tool:hover {
     background-color: lightblue;
 }
 
@@ -177,7 +187,45 @@ a {
     /* margin: 1rem; */
 }
 
+#contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+    background-image: url(images/Contact-bg-image.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* Center the image */
+    background-size: cover;
+    background-color: black;
+    color: wheat;
+}
+
+#contact-section-titel{
+    font-size: xx-large;
+}
+
+#profile-link {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#profile-link:hover {
+    display: flex;
+}
+
+i {
+    color: wheat;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+i:hover {
+    color: black;
+    background-color: white;
+}
 
 /* @media screen and () {
 
