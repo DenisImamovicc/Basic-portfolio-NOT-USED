@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0 0 0 0;
-
+    
 }
 
 
@@ -27,16 +27,24 @@ body::-webkit-scrollbar {
     flex-direction: row;
     justify-content: space-around;
     position: fixed;
-
+    
     top: 0;
     right: 0;
     width: 100vw;
     border: 3px solid #73AD21;
     background-color: black;
     color: purple;
-
+    
     z-index: 2;
+    
+}
 
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    margin: 1rem 0rem 1rem 0rem;
+    padding: 1rem;
 }
 
 #welcome-section {
@@ -46,7 +54,7 @@ body::-webkit-scrollbar {
     justify-content: center;
     min-width: 100%;
     min-height: 100%;
-
+    
     background-image: url(images/welcome-section-background.png);
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
@@ -75,46 +83,102 @@ body::-webkit-scrollbar {
 
 #projects-section{
     background-color: rgb(173, 24, 173);
+    height: auto;
 }
 
 #projects-section-titel{
     text-align: center;
+    color: wheat;
+    margin-bottom: 1rem;
 }
 
-.project-tile{
-    min-height: 30vh;
+.project-titel{
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
 }
+.project-tile{
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-image: url(images/Projekt\ 1.png); */
+    background-color: rgb(165, 155, 155);
+    background-position: center;
+    background-size: cover; 
+    margin-bottom: 1rem;
+    padding: 0.4em;
+
+
+}
+
+/* .project-tile:hover{
+
+} */
 
 .project-img{
     height: auto;
-    width: 20%;
+    width: 100%;
 }
 
 .project-tools-list{
     display: flex;
+    background-color: inherit;
+}
+
+.project-buttons{
+
+    margin: 0rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+.project-buttons:last-of-type{
+    margin-bottom: 0rem;
+}
+
+.project-buttons:hover{
+    background-color: lightblue;
+}
+
+.button-link{
+    padding: 1rem;
+}
+
+.project-p{
+    margin: 1rem;
+    text-align: start;
 }
 
 li {
     list-style: none;
     margin: 0.5rem;
+
+}
+
+.tool{
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.tool:hover{
+    background-color: lightblue;
 }
 
 a {
     text-decoration: none;
-
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     /* margin: 1rem; */
 }
 
-h2 {
-    top: ;
-}
 
-section {
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua;
-    margin: 1rem 0rem 1rem 0rem;
-    padding: 1rem;
-}
 
-@media screen and () {}
+/* @media screen and () {
+
+} */
