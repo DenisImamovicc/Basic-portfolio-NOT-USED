@@ -45,6 +45,13 @@ body::-webkit-scrollbar {
     justify-content: center;
     min-width: 100%;
     min-height: 100%;
+
+    background-image: url(images/welcome-section-background.png);
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-color: black;
+    background-size: cover; 
+    
 }
 
 #welcome-section-titel {
