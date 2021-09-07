@@ -21,6 +21,7 @@ body::-webkit-scrollbar {
 }
 
 
+
 #navbar {
     display: flex;
     flex-direction: row;
@@ -49,48 +50,27 @@ body::-webkit-scrollbar {
     background-image: url(images/welcome-section-background.png);
     background-repeat: no-repeat;
     background-position: center; /* Center the image */
-    background-color: black;
     background-size: cover; 
+    background-color: black;
+    box-shadow: 15px 20px 30px 25px gray inset;
     
 }
 
-#welcome-section-titel {
+#hero-text{
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    /* background-image: url(images/welcome-section-background.png); */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    background-size: cover; 
+    background-color: transparent;
+    box-shadow: 5px 10px 20px 10px black;
+    height: 80vh;
+    font-size: 2rem;
 }
-
-/* Style the video: 100% width and height to cover the entire window */
-#myVideo {
-    position: relative;
-   width: ;
-   height: ;
-
-   background-color: black;
-  }
-  
-  /* Add some content at the bottom of the video/page */
-  .content {
-    position: relative;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-  }
-  
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
-  }
 
 li {
     list-style: none;
