@@ -31,9 +31,8 @@ body::-webkit-scrollbar {
 
     top: 0;
     right: 0;
-    width: 100vw;
-    border: 3px solid #73AD21;
-    background-color: black;
+    width: 100vw;;
+    background-image: linear-gradient(to right, black , rgb(177, 81, 177));
     color: purple;
 
     z-index: 2;
@@ -68,6 +67,13 @@ section:last-of-type {
     background-color: black;
     box-shadow: 15px 20px 30px 25px gray inset;
 
+}
+
+audio{
+    position: fixed;
+    bottom: 0px;
+    right: 5px;
+    width: 100px;
 }
 
 #hero-text {
@@ -150,7 +156,11 @@ section:last-of-type {
 }
 
 .project-buttons:hover {
-    background-color: lightblue;
+    background-image: linear-gradient(to right, lightblue , rgb(173, 42, 173));
+}
+
+#project-button-group{
+    display: initial;
 }
 
 .button-link {
@@ -227,6 +237,46 @@ i:hover {
     background-color: white;
 }
 
-/* @media screen and () {
+@media screen and (min-width:768px) {
+    audio{
+        position: fixed;
+        bottom: 0px;
+        left: 5px;
+        width: 300px;
+    }
 
-} */
+    .project-tile {
+        flex-direction: row;
+        height: fit-content;
+    }
+
+    .project-titel {
+        margin: 1rem 1rem 0 1rem;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        text-align: start;
+    }
+
+    .project-img {
+        height: auto;
+        width: 50%;
+    }
+    .project-nonimg{
+        width: 100%;
+    }
+
+    #project-button-group{
+        display: flex;
+        justify-content: right;
+    }
+    .project-buttons{
+        width: fit-content;
+        height: fit-content;
+        margin: 0.5rem;
+    }
+
+    .project-tools-list{
+        height: fit-content;
+    }
+
+}

@@ -13,9 +13,9 @@
 <body>
     <nav id="navbar">
 
-        <li><a href="#welcome-section">Start</a></li>
-        <li><a href="#projects-section">Projects</a></li>
-        <li><a href="#contact-section">Contact</a></li>
+        <li><a href="#welcome-section" style="color: wheat;">Start</a></li>
+        <li><a href="#projects-section " style="color: gray;">Projects</a></li>
+        <li><a href="#contact-section" style="color: white">Contact</a></li>
 
     </nav>
 
@@ -25,47 +25,60 @@
             <div id="hero-text">
                 <h1>Denis Imamovic Portfolio</h1>
                 <p>Sotware developer with an interest in technology</p>
+                <audio src="audio/Unfound - Without.mp3" autoplay controls id="bg-audio"></audio>
             </div>
 
-            <audio src="audio/Unfound - Without.mp3"  controls id="bg-audio"></audio>
         </section>
         <section id="projects-section">
             <h2 id="projects-section-titel">Projects</h2>
-                <div class="project-tile">
-                    <img src="images/Projekt 1.png" alt="" class="project-img">
+            <div class="project-tile">
+                <img src="images/Projekt 1.png" loading="lazy" alt="" class="project-img">
+                <div class="project-nonimg">
                     <h3 class="project-titel">Etchasketch</h3>
                     <ul class="project-tools-list">
-                         <li class="tool">HTML</li>
-                         <li class="tool">CSS</li>
-                         <li class="tool">JS</li>
+                        <li class="tool">HTML</li>
+                        <li class="tool">CSS</li>
+                        <li class="tool">JS</li>
                     </ul>
-                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti?</p>
-                    <li class="project-buttons"><a href=""class="button-link">Live Test</a></li>
-                    <li class="project-buttons"><a href=""class="button-link">Check code</a></li>
-
-                </div>
-                <div class="project-tile">
-                    <img src="images/Projekt 1.png" alt="" class="project-img">
-                    <h3 class="project-titel">Projekt1</h3>
-                    <ul class="project-tools-list"> <li class="tool">HTML</li>
-                         <li class="tool">CSS</li>
-                         <li class="tool">JS</li>
+                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ex incidunt ea rerum, excepturi voluptates provident esse nulla repellat, corrupti doloremque atque maxime nisi corporis, iste porro cupiditate dolore voluptatibus maiores laborum laboriosam eum. Animi soluta vitae ab culpa aliquid.</p>
+                    <ul id="project-button-group">
+                        <li class="project-buttons"><a href="" class="button-link">Live Test</a></li>
+                        <li class="project-buttons"><a href="" class="button-link">Check code</a></li>
                     </ul>
-                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sed nesciunt magnam vero inventore culpa provident non sapiente expedita labore!</p>
-                    <li class="project-buttons"><a href="" class="button-link">Live Test</a></li>
-                    <li class="project-buttons"><a href="" class="button-link">Check code</a></li>
                 </div>
-                <div class="project-tile">
-                    <img src="images/Projekt 1.png" alt="" class="project-img">
-                    <h3 class="project-titel">Projekt1</h3>
-                    <ul class="project-tools-list"> <li class="tool">HTML</li>
-                         <li class="tool">CSS</li>
-                         <li class="tool">JS</li>
+            </div>
+            <div class="project-tile">
+                <img src="images/Projekt 1.png" loading="lazy" alt="" class="project-img">
+                <div class="project-nonimg">
+                    <h3 class="project-titel">Etchasketch</h3>
+                    <ul class="project-tools-list">
+                        <li class="tool">HTML</li>
+                        <li class="tool">CSS</li>
+                        <li class="tool">JS</li>
                     </ul>
-                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, deleniti?</p>
-                    <li class="project-buttons"><a href="" class="button-link">Live Test</a></li>
-                    <li class="project-buttons"><a href="" class="button-link">Check code</a></li>
+                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ex incidunt ea rerum, excepturi voluptates provident esse nulla repellat, corrupti doloremque atque maxime nisi corporis, iste porro cupiditate dolore voluptatibus maiores laborum laboriosam eum. Animi soluta vitae ab culpa aliquid.</p>
+                    <ul id="project-button-group">
+                        <li class="project-buttons"><a href="" class="button-link">Live Test</a></li>
+                        <li class="project-buttons"><a href="" class="button-link">Check code</a></li>
+                    </ul>
                 </div>
+            </div>
+            <div class="project-tile">
+                <img src="images/Projekt 1.png" loading="lazy" alt="" class="project-img">
+                <div class="project-nonimg">
+                    <h3 class="project-titel">Etchasketch</h3>
+                    <ul class="project-tools-list">
+                        <li class="tool">HTML</li>
+                        <li class="tool">CSS</li>
+                        <li class="tool">JS</li>
+                    </ul>
+                    <p class="project-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ex incidunt ea rerum, excepturi voluptates provident esse nulla repellat, corrupti doloremque atque maxime nisi corporis, iste porro cupiditate dolore voluptatibus maiores laborum laboriosam eum. Animi soluta vitae ab culpa aliquid.</p>
+                    <ul id="project-button-group">
+                        <li class="project-buttons"><a href="" class="button-link">Live Test</a></li>
+                        <li class="project-buttons"><a href="" class="button-link">Check code</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
         <section id="contact-section">
             <h2 id="contact-section-titel">Enjoy my works?</h2>
@@ -73,8 +86,10 @@
             <div id="profile-link">
                 <a href="mailto:denis.imamovic@medieinstitutet.se"><i class="fa fa-envelope" aria-hidden="true"></i></a>
                 <a href="tel:+"><i class="fa fa-phone" aria-hidden="true"></i></a>
-                <a href="https://github.com/DenisImamovicc"target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/denis-imamovic-83036a21b/"target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="https://github.com/DenisImamovicc" target="_blank"><i class="fa fa-github"
+                        aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/denis-imamovic-83036a21b/" target="_blank"><i
+                        class="fa fa-linkedin-square" aria-hidden="true"></i>
                 </a>
             </div>
         </section>
