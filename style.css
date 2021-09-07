@@ -72,6 +72,28 @@ body::-webkit-scrollbar {
     font-size: 2rem;
 }
 
+
+#projects-section{
+    background-color: rgb(173, 24, 173);
+}
+
+#projects-section-titel{
+    text-align: center;
+}
+
+.project-tile{
+    min-height: 30vh;
+}
+
+.project-img{
+    height: auto;
+    width: 20%;
+}
+
+.project-tools-list{
+    display: flex;
+}
+
 li {
     list-style: none;
     margin: 0.5rem;
