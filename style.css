@@ -39,6 +39,10 @@ body::-webkit-scrollbar {
 
 }
 
+#navbar:hover{
+    color: aqua;
+}
+
 section {
     height: 100vh;
     width: 100vw;
